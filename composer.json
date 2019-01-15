@@ -4,12 +4,15 @@
   "description": "ContentGuiExtension module",
   "license": "proprietary",
   "require": {
-    "php": ">=7.1",
-    "spryker/kernel": "^3.8.0"
+    "php": ">=7.1"
   },
   "require-dev": {
+    "spryker/kernel": "*",
     "spryker/code-sniffer": "*",
     "spryker/testify": "*"
+  },
+  "suggest": {
+    "spryker/kernel": "If you want to use content plugin"
   },
   "autoload": {
     "psr-4": {
