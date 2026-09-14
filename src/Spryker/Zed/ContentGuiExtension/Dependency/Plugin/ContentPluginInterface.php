@@ -37,7 +37,7 @@ interface ContentPluginInterface
      *
      * @api
      *
-     * @return string
+     * @return class-string<\Symfony\Component\Form\FormTypeInterface>
      */
     public function getForm(): string;
 
